@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Lora:wght@700&family=Roboto:wght@700&display=swap");
+body {
+  padding: 0 auto;
+  margin: 0 auto;
+}
+body .containers {
+  height: auto;
+}
+body .containers .container-background {
+  background-image: url(../images/backgroud-repet.png);
+  background-repeat: space;
+  background-size: 81.8%;
+  background-position: center;
+}
+body .containers .container-background .container-nav-menuTop {
+  background-color: white;
+  height: 86px;
+  position: relative;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu {
+  height: 71px;
+  width: auto;
+  box-sizing: border-box;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu ul {
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu ul li {
+  margin: 0 1.19% 0 1.19%;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu ul li a {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #272F54;
+  text-decoration: none;
+  transition: all 0.25s ease-in-out;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu ul li a:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 2px;
+  text-decoration-color: #F7941D;
+  text-decoration-thickness: 2px;
+  text-border-radius: 10px;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu .contai-imgsCountry {
+  top: 25%;
+  right: calc(4.755% - 1px);
+  position: absolute;
+  display: flex;
+}
+body .containers .container-background .container-nav-menuTop .nav-menu .contai-imgsCountry .img-coutry2 {
+  margin-left: 9px;
+}
+body .containers .container-background .container-nav-menuTop .nav-logo {
+  top: 0;
+  width: 125.74px;
+  height: 100%;
+  background-image: url(../images/backgroud-logo-orage.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: calc(4.755% - 8px);
+}
+body .containers .container-background .container-nav-menuTop .nav-logo img {
+  margin: 10px 8px 0 8px;
+  width: calc(100% - 16px);
+  height: auto;
+}
+body .containers .container-background .container-banner {
+  position: relative;
+  background-color: white;
+  height: 904px;
+  padding-left: 4.755%;
+}
+body .containers .container-background .container-banner .contai-imgFpt {
+  position: absolute;
+  margin-top: 45px;
+  margin-left: 14.9%;
+}
+body .containers .container-background .container-banner .contai-imgFpt .imgFpt {
+  margin-top: 16px;
+}
+body .containers .container-background .container-banner .contai-imgFpt .imgFpt .img-view3 {
+  margin-left: 16px;
+}
+body .containers .container-background .container-banner .img-lineTayNguyen-1 {
+  position: absolute;
+  margin-top: 6px;
+  margin-left: 8.3%;
+}
+body .containers .container-background .container-banner .img-10Nam-2 {
+  position: absolute;
+  margin-left: 0.5%;
+  top: -16px;
+}
+body .containers .container-background .container-banner .img-vuongHoaTietTron-3 {
+  position: absolute;
+  top: 165px;
+  right: 38.7%;
+}
+body .containers .container-background .container-banner .img-khoi-tamGiacTron-4 {
+  position: absolute;
+  top: 279px;
+  left: 18.2%;
+}
+body .containers .container-background .container-banner .img-dot-orageChuNhat-5 {
+  position: absolute;
+  top: 407px;
+  left: 12.9%;
+}
+body .containers .container-background .container-banner .img-tronTamTrang-6 {
+  position: absolute;
+  top: 45px;
+  right: 14.9%;
+}
+body .containers .container-background .container-banner .img-dotGreenVuong-7 {
+  position: absolute;
+  top: 45px;
+  left: 51.5%;
+}
+body .containers .container-background .container-banner .img-lineTayNguyen3-8 {
+  position: absolute;
+  top: 208px;
+  left: 51.5%;
+}
+body .containers .container-background .container-banner .img-tronCam-9 {
+  position: absolute;
+  top: 529px;
+  right: 28.6%;
+}
+body .containers .container-background .container-banner .img-xocCheo-10 {
+  position: absolute;
+  top: 312px;
+  right: 0%;
+}
+body .containers .container-background .container-banner .img-tamGiacXuong-11 {
+  position: absolute;
+  top: 369px;
+  right: -18%;
+}
+body .containers .container-background .container-banner .img-tamGiacTren-12 {
+  position: absolute;
+  top: 288px;
+  right: 7.4%;
+}
+body .containers .container-background .container-banner .img-khoiBaTamGiac-13 {
+  position: absolute;
+  top: 489px;
+  right: 11.3%;
+}
+body .containers .container-background .container-banner .img-lineTayNguyen2-14 {
+  position: absolute;
+  top: 626.5px;
+  right: 7.5%;
+}
+body .containers .container-background .container-banner h2 {
+  position: absolute;
+  font-family: Bookman Old Style;
+  bottom: -45px;
+  left: 19.5%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 96px;
+  line-height: 113px;
+  color: rgba(39, 47, 84, 0.8);
+}
+body .containers .container-background .container-banner .text-textNam {
+  position: absolute;
+  width: 335px;
+  height: 133px;
+  left: 16.5%;
+  top: 61px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 150px;
+  text-shadow: 0 0 2px #fff;
+  /* Firefox 3.5+, Opera 9+, Safari 1+, Chrome, IE10 */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #272F54;
+  color: #FFFFFF;
+}
+body .containers .container-background .container-banner .text-fptpoly {
+  left: -12.5%;
+  top: 472.5px;
+  position: absolute;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 164px;
+  transform: rotate(90deg);
+  color: rgba(247, 148, 29, 0.12);
+}
+body .containers .container-background .container-banner .text-taynguyen {
+  right: 0.3%;
+  top: -26px;
+  position: absolute;
+  font-family: "Lora", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 164px;
+  color: rgba(247, 148, 29, 0.12);
+}
+body .containers .container-background .container-toppics {
+  height: 534px;
+  position: relative;
+}
+body .containers .container-background .container-toppics .backgroud-topTopics {
+  position: absolute;
+  top: 0;
+  height: 238px;
+  width: 100%;
+  background: linear-gradient(180deg, #FFFFFF 57%, rgba(255, 255, 255, 0) 81.48%);
+}
+body .containers .container-background .container-toppics .contai-topics {
+  position: absolute;
+  width: 100%;
+  height: 534px;
+  margin-top: 38px;
+  margin-bottom: 39px;
+}
+body .containers .container-background .container-caters {
+  background-color: #6c2575;
+  height: 758px;
+}
+body .containers .container-background .container-arena {
+  background-color: #f3ff0d;
+  height: 750px;
+}
+body .containers .container-background .container-showPostNews {
+  background-color: #800060;
+  height: 749px;
+}
+body .containers .container-background .container-link {
+  background-color: #391796;
+  height: 677px;
+}
+body .containers .container-background .container-footer {
+  background-color: #643e3e;
+  height: 686px;
+}
+
+/*# sourceMappingURL=index.css.map */
