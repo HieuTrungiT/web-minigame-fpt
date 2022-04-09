@@ -204,6 +204,108 @@ body .containers .container-background .container-banner .contai-imgFpt .imgFpt 
 body .containers .container-background .container-banner .contai-imgFpt .imgFpt .img-view3 {
   margin-left: 16px;
 }
+body .containers .container-background .container-banner .background {
+  z-index: 999;
+  position: relative;
+  position: absolute;
+  top: 0;
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
+  height: 100%;
+  width: 95%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0px;
+  /* Animate Background*/
+}
+body .containers .container-background .container-banner .background .cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #D7D4E4;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(2n) {
+  border-color: #FFF;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(2) {
+  animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(3) {
+  animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(4) {
+  animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(5) {
+  animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(6) {
+  animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+body .containers .container-background .container-banner .background .cube {
+  position: absolute;
+  top: 80vh;
+  left: 45vw;
+  width: 10px;
+  height: 10px;
+  border: solid 1px #D7D4E4;
+  transform-origin: top left;
+  transform: scale(0) rotate(0deg) translate(-50%, -50%);
+  animation: cube 12s ease-in forwards infinite;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(2n) {
+  border-color: #FFF;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(2) {
+  animation-delay: 2s;
+  left: 25vw;
+  top: 40vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(3) {
+  animation-delay: 4s;
+  left: 75vw;
+  top: 50vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(4) {
+  animation-delay: 6s;
+  left: 90vw;
+  top: 10vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(5) {
+  animation-delay: 8s;
+  left: 10vw;
+  top: 85vh;
+}
+body .containers .container-background .container-banner .background .cube:nth-child(6) {
+  animation-delay: 10s;
+  left: 50vw;
+  top: 10vh;
+}
+@keyframes cube {
+  from {
+    transform: scale(0) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(20) rotate(960deg) translate(-50%, -50%);
+    opacity: 0;
+  }
+}
 body .containers .container-background .container-banner .img-lineTayNguyen-1 {
   position: absolute;
   margin-top: 6px;
