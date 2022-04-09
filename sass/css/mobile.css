@@ -196,8 +196,13 @@ body .containers .container-background .container-banner {
 }
 body .containers .container-background .container-banner .contai-imgFpt {
   position: absolute;
-  margin-top: 45px;
-  margin-left: 14.9%;
+  display: flex;
+  /* margin-right: 10px; */
+  width: 95%;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
 }
 body .containers .container-background .container-banner .contai-imgFpt .img-view1 {
   width: 260px;
@@ -207,11 +212,11 @@ body .containers .container-background .container-banner .contai-imgFpt .imgFpt 
   margin-top: 16px;
 }
 body .containers .container-background .container-banner .contai-imgFpt .imgFpt .img-view2 {
-  width: 135px;
+  width: 120px;
   object-fit: contain;
 }
 body .containers .container-background .container-banner .contai-imgFpt .imgFpt .img-view3 {
-  width: 135px;
+  width: 120px;
   object-fit: contain;
   margin-left: 16px;
 }
@@ -251,6 +256,7 @@ body .containers .container-background .container-banner .img-dot-orageChuNhat-5
   left: 12.9%;
 }
 body .containers .container-background .container-banner .img-tronTamTrang-6 {
+  display: none;
   width: 160px;
   height: 160px;
   position: absolute;
@@ -267,7 +273,7 @@ body .containers .container-background .container-banner .img-dotGreenVuong-7 {
 body .containers .container-background .container-banner .img-lineTayNguyen3-8 {
   position: absolute;
   top: 208px;
-  left: 51.5%;
+  left: 37.5%;
 }
 body .containers .container-background .container-banner .img-tronCam-9 {
   width: 150px;
@@ -316,7 +322,7 @@ body .containers .container-background .container-banner h2 {
   left: 19.5%;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 113px;
   color: rgba(39, 47, 84, 0.8);
 }
@@ -375,7 +381,6 @@ body .containers .container-background .container-toppics .backgroud-topTopics {
 }
 body .containers .container-background .container-toppics .contai-topics {
   position: relative;
-  height: 482px;
   padding-top: 13px;
   padding-bottom: 39px;
   cursor: pointer;
@@ -383,7 +388,6 @@ body .containers .container-background .container-toppics .contai-topics {
 body .containers .container-background .container-toppics .contai-topics .list-topics {
   height: 407px;
   width: 99vw;
-  display: flex;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   gap: 1rem;
@@ -393,9 +397,9 @@ body .containers .container-background .container-toppics .contai-topics .list-t
   -webkit-overflow-scrolling: touch;
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic {
-  min-width: 402px;
-  margin: 0 15px 0 15px;
-  scroll-snap-align: start;
+  min-width: 350px;
+  /* margin: 0 15px 0 15px; */
+  scroll-snap-align: center;
   background: rgba(255, 255, 255, 0.4);
   backdrop-filter: blur(5px);
   border-radius: 10px;
@@ -421,7 +425,7 @@ body .containers .container-background .container-toppics .contai-topics .list-t
   font-weight: 700;
   font-size: 40px;
   line-height: 47px;
-  top: 75px;
+  top: 42px;
   right: 3px;
   color: #F7941D;
 }
@@ -437,18 +441,17 @@ body .containers .container-background .container-toppics .contai-topics .list-t
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic .contai-top-item-topic .date .year {
   right: -2px;
-  top: 140px;
+  top: 106px;
   font-family: "Roboto";
   font-style: normal;
   font-size: 15px;
   line-height: 18px;
   font-weight: 400;
-  /* identical to box height */
   color: #000000;
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic .contai-top-item-topic .img-topic {
-  width: 300px;
-  height: 200px;
+  width: 253px;
+  height: 167px;
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic .contai-top-item-topic .img-topic img {
   border-radius: 10px;
@@ -456,9 +459,10 @@ body .containers .container-background .container-toppics .contai-topics .list-t
   transition: all 1s ease;
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic .content-topics {
-  padding-left: 34px;
+  padding-left: 25px;
   padding-top: 8px;
-  padding-right: 19px;
+  padding-right: 27px;
+  padding-bottom: 20px;
 }
 body .containers .container-background .container-toppics .contai-topics .list-topics a .item-topic .content-topics h3 {
   margin: 0px;
@@ -574,7 +578,7 @@ body .containers .container-background .container-caters h2 {
   left: 19.2%;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   line-height: 113px;
   color: rgba(39, 47, 84, 0.8);
   margin: 0px;
@@ -586,8 +590,8 @@ body .containers .container-background .container-caters .caters {
   width: 100%;
 }
 body .containers .container-background .container-caters .caters .list-caters {
-  padding-top: 61px;
-  padding-bottom: 61px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   /* padding-left: 15px; */
   /* padding-right: 15px; */
   display: flex;
@@ -600,12 +604,12 @@ body .containers .container-background .container-caters .caters .list-caters {
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater {
   position: relative;
-  width: 176px;
+  width: 145px;
   height: 304px;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-img {
   width: 100%;
@@ -615,7 +619,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content1 {
   position: absolute;
-  width: 86%;
+  width: 93%;
   height: 122px;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -639,7 +643,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content1 .content h3 {
   margin: 0px;
-  margin-left: 30px;
+  margin-left: 15px;
   margin-right: 10px;
   font-family: "Roboto";
   font-style: normal;
@@ -657,7 +661,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content2 {
   position: absolute;
-  width: 86%;
+  width: 93%;
   height: 122px;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -680,7 +684,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content2 .content h3 {
   margin: 0px;
-  margin-left: 30px;
+  margin-left: 15px;
   margin-right: 10px;
   font-family: "Roboto";
   font-style: normal;
@@ -698,7 +702,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content3 {
   position: absolute;
-  width: 86%;
+  width: 93%;
   height: 122px;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -721,7 +725,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content3 .content h3 {
   margin: 0px;
-  margin-left: 30px;
+  margin-left: 15px;
   margin-right: 10px;
   font-family: "Roboto";
   font-style: normal;
@@ -739,7 +743,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content4 {
   position: absolute;
-  width: 86%;
+  width: 93%;
   height: 122px;
   background: #FFFFFF;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
@@ -762,7 +766,7 @@ body .containers .container-background .container-caters .caters .list-caters .i
 }
 body .containers .container-background .container-caters .caters .list-caters .item-cater .cater-content4 .content h3 {
   margin: 0px;
-  margin-left: 30px;
+  margin-left: 15px;
   margin-right: 10px;
   font-family: "Roboto";
   font-style: normal;
@@ -788,7 +792,7 @@ body .containers .container-background .container-arena {
 }
 body .containers .container-background .container-arena .contai-title {
   width: 68.9%;
-  height: 129px;
+  height: 100px;
   background-color: #F7941D;
   display: flex;
   justify-content: flex-end;
@@ -797,8 +801,8 @@ body .containers .container-background .container-arena .contai-title h2 {
   font-family: Bookman Old Style;
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
-  line-height: 113px;
+  font-size: 50px;
+  line-height: 98px;
   color: #ffff;
   margin: 0px;
 }
@@ -886,6 +890,7 @@ body .containers .container-background .container-arena .contai-arenas .list-con
   width: 100%;
   z-index: 999;
   cursor: pointer;
+  transition: width 0.25s linear;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena1 .view-content-arena {
   position: absolute;
@@ -936,6 +941,7 @@ body .containers .container-background .container-arena .contai-arenas .list-con
   z-index: 999;
   width: 100%;
   cursor: pointer;
+  transition: width 0.25s linear;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena2 .view-content-arena {
   position: absolute;
@@ -987,6 +993,7 @@ body .containers .container-background .container-arena .contai-arenas .list-con
   z-index: 999;
   width: 100%;
   cursor: pointer;
+  transition: width 0.25s linear;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena3 .view-content-arena {
   position: absolute;
@@ -1038,6 +1045,7 @@ body .containers .container-background .container-arena .contai-arenas .list-con
   z-index: 999;
   width: 100%;
   cursor: pointer;
+  transition: width 0.25s linear;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena4 .view-content-arena {
   position: absolute;
@@ -1089,6 +1097,7 @@ body .containers .container-background .container-arena .contai-arenas .list-con
   z-index: 999;
   width: 100%;
   cursor: pointer;
+  transition: width 0.25s linear;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena5 .view-content-arena {
   position: absolute;
@@ -1137,6 +1146,9 @@ body .containers .container-background .container-arena .contai-arenas .list-con
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena1:hover .view-content-arena .line-color1::before {
   width: 100%;
 }
+body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena1:hover {
+  width: 150%;
+}
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena1:hover .view-content-arena .content span {
   color: white;
 }
@@ -1151,6 +1163,9 @@ body .containers .container-background .container-arena .contai-arenas .list-con
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena2:hover .view-content-arena .content span {
   color: white;
+}
+body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena2:hover {
+  width: 150%;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena2:hover + .img-view-arena2 {
   opacity: 1;
@@ -1167,6 +1182,9 @@ body .containers .container-background .container-arena .contai-arenas .list-con
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena3:hover + .img-view-arena3 {
   opacity: 1;
 }
+body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena3:hover {
+  width: 150%;
+}
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .img-view-arena3:hover {
   opacity: 1;
 }
@@ -1175,6 +1193,9 @@ body .containers .container-background .container-arena .contai-arenas .list-con
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena4:hover .view-content-arena .content span {
   color: white;
+}
+body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena4:hover {
+  width: 150%;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena4:hover + .img-view-arena4 {
   opacity: 1;
@@ -1187,6 +1208,9 @@ body .containers .container-background .container-arena .contai-arenas .list-con
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena5:hover .view-content-arena .content span {
   color: white;
+}
+body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena5:hover {
+  width: 150%;
 }
 body .containers .container-background .container-arena .contai-arenas .list-content-arenas .item-content-arena5:hover + .img-view-arena5 {
   opacity: 1;
@@ -1355,7 +1379,7 @@ body .containers .container-background .container-showPostNews .contai-news .lis
   margin: 0px 0px 27px 0px;
   padding-bottom: 24px;
   width: auto;
-  height: 300px;
+  height: 330px;
   position: relative;
   cursor: pointer;
 }
@@ -1446,7 +1470,7 @@ body .containers .container-background .container-showPostNews .contai-news .lis
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 20px;
   color: #272F54;
   transition: all 0.5s ease;
 }
@@ -1455,7 +1479,7 @@ body .containers .container-background .container-showPostNews .contai-news .lis
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 20px;
   margin: 0px;
   margin-top: 4px;
   color: #272F54;
@@ -1600,7 +1624,7 @@ body .containers .container-background .container-link .link-title span {
   font-family: "Bookman Old Style";
   font-style: normal;
   font-weight: 600;
-  font-size: 60px;
+  font-size: 50px;
   color: rgba(39, 47, 84, 0.8);
 }
 body .containers .container-background .container-link .list-link-item {
