@@ -444,6 +444,7 @@ body .containers .container-background .container-toppics .contai-topics .list-t
   font-weight: 700;
   font-size: 19px;
   line-height: 23px;
+  margin-bottom: 5px;
   color: #000000;
   transition: all 0.25s ease;
 }
@@ -453,7 +454,7 @@ body .containers .container-background .container-toppics .contai-topics .list-t
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 15px;
+  line-height: 20px;
   color: rgba(0, 0, 0, 0.7);
 }
 body .containers .container-background .container-toppics .contai-topics a:hover .item-topic {
@@ -1411,7 +1412,7 @@ body .containers .container-background .container-showPostNews .contai-news .lis
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 22px;
   color: #272F54;
   transition: all 0.5s ease;
 }
@@ -1420,7 +1421,7 @@ body .containers .container-background .container-showPostNews .contai-news .lis
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
-  line-height: 16px;
+  line-height: 20px;
   margin: 0px;
   margin-top: 8px;
   color: #272F54;

@@ -380,9 +380,6 @@ body {
                         margin-bottom: 27px;
                         -webkit-overflow-scrolling: touch;
 
-                        // overflow: hidden;
-                        // transform: rotate(-90deg);
-                        // transform-origin: right top;
                         a {
                             .item-topic {
                                 min-width: 402px;
@@ -453,15 +450,8 @@ body {
 
                                             transition: all 1s ease;
                                         }
-
-                                        // img:hover {
-                                        //   width: 101%;
-
-                                        // }
                                     }
-
                                 }
-
                                 .content-topics {
                                     padding-left: 34px;
                                     padding-top: 8px;
@@ -472,13 +462,12 @@ body {
                                         font-family: 'Roboto';
                                         font-style: normal;
                                         font-weight: 700;
+                                        margin-bottom:5px;
                                         font-size: 19px;
                                         line-height: 23px;
                                         color: #000000;
                                         transition: all 0.25s ease;
                                     }
-
-
 
                                     h4 {
                                         margin: 0px;
@@ -486,8 +475,7 @@ body {
                                         font-style: normal;
                                         font-weight: 400;
                                         font-size: 13px;
-                                        line-height: 15px;
-
+                                        line-height: 20px;
                                         color: rgba(0, 0, 0, 0.7);
                                     }
                                 }
@@ -630,11 +618,9 @@ body {
                     .list-caters {
                         padding-top: 61px;
                         padding-bottom: 61px;
-                        /* padding-left: 15px; */
-                        /* padding-right: 15px; */
                         display: flex;
                         list-style: none;
-                        justify-content: space-around;
+                        justify-content: space-evenly;
                         overflow-x: auto;
                         flex-direction: row-reverse;
                         flex-wrap: wrap;
@@ -1667,7 +1653,7 @@ body {
                                             font-style: normal;
                                             font-weight: 700;
                                             font-size: 14px;
-                                            line-height: 17px;
+                                            line-height: 20px;
                                             color: #272F54;
                                             transition: all 0.5s ease;
                                         }
@@ -1678,7 +1664,7 @@ body {
                                             font-style: normal;
                                             font-weight: 400;
                                             font-size: 13px;
-                                            line-height: 16px;
+                                            line-height: 20px;
                                             margin: 0px;
                                             margin-top: 8px;
                                             color: #272F54;

@@ -489,7 +489,7 @@ body {
                         a {
                             .item-topic {
                                 min-width: 350px;
-                                /* margin: 0 15px 0 15px; */
+                            
                                 scroll-snap-align: center;
                                 background: rgba(255, 255, 255, 0.4);
                                 backdrop-filter: blur(5px);
@@ -578,7 +578,9 @@ body {
                                         font-size: 19px;
                                         line-height: 23px;
                                         color: #000000;
+                                        margin-bottom:5px;
                                         transition: all 0.25s ease;
+                                    
                                     }
 
 
@@ -588,8 +590,8 @@ body {
                                         font-family: 'Roboto';
                                         font-style: normal;
                                         font-weight: 400;
-                                        font-size: 13px;
-                                        line-height: 15px;
+                                        font-size: 14px;
+                                        line-height: 20px;
 
                                         color: rgba(0, 0, 0, 0.7);
                                     }
@@ -1771,7 +1773,7 @@ transition:width 0.25s linear;
 
                                             font-style: normal;
                                             font-weight: 700;
-                                            font-size: 14px;
+                                            font-size: 17px;
                                             line-height: 20px;
                                             color: #272F54;
                                             transition: all 0.5s ease;
