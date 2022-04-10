@@ -60,10 +60,12 @@ body {
             background-size: 81.8%;
             background-position: center;
             position: relative;
-            .img-menu{
-                position:absolute;
-                display: none; 
+
+            .img-menu {
+                position: absolute;
+                display: none;
             }
+
             .container-nav-menuTop {
                 background-color: rgb(255, 255, 255);
                 height: 86px;
@@ -118,7 +120,7 @@ body {
                         right: calc($paddingRg - 1px);
                         position: absolute;
                         display: flex;
-                   
+
                         .img-coutry2 {
                             margin-left: 9px
                         }
@@ -452,6 +454,7 @@ body {
                                         }
                                     }
                                 }
+
                                 .content-topics {
                                     padding-left: 34px;
                                     padding-top: 8px;
@@ -462,7 +465,7 @@ body {
                                         font-family: 'Roboto';
                                         font-style: normal;
                                         font-weight: 700;
-                                        margin-bottom:5px;
+                                        margin-bottom: 5px;
                                         font-size: 19px;
                                         line-height: 23px;
                                         color: #000000;
@@ -1886,17 +1889,118 @@ body {
                                 object-fit: contain;
                             }
                         }
-
-
                     }
 
                     .item-link:hover {
                         background-color: #fff;
                     }
+                }
+            }
+
+            .container-review {
+                width: 100%;
+                // height: 774px;
+                height: auto;
+                position: relative;
+
+                h2 {
+                    font-family: Bookman Old Style;
+                    margin: 0px;
+                    margin-top: 10px;
+                    margin-left: 19.1%;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 85px;
+                    line-height: 113px;
+                    color: rgba(39, 47, 84, 0.8);
+                }
+
+                .content__contai-review {
+                    width: auto;
+                    height: auto;
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 8px;
+                    margin: 0;
+                    margin-top: 59px;
+                    align-items: center;
+
+                    .title-review {
+                        width: 90%;
+                        height: auto;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-right: 8px;
+
+                        h3 {
+                            margin: 0;
+                            font-family: 'Lora';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 40px;
+                            line-height: 47px;
+                            text-align: center;
+                            color: #272F54;
+                            width: 100%;
+                        }
+
+                        h4 {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 15px;
+                            line-height: 20px;
+                            margin: 0px;
+                            width: 90%;
+                            margin-bottom: 6px;
+                            text-align: center;
+                            color: #000000;
+                        }
+                    }
+
+                    .content-review {
+
+                        width: 90%;
+                        height: auto;
+                        padding: 10px 0px 0px 13px;
+                        position: relative;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+
+                        .video-review {
+                            // width: 83.1%;
+                            width: 100%;
+                            height: 491px;
+                        }
+
+                        h2 {
+                            // position: absolute;
+                            text-align: end;
+                            margin: 0px;
+                            height: 76px;
+                            width: 100%;
+                            font-family: 'Lora';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 64px;
+                            line-height: 82px;
+                            color: #F7941D;
+
+                        }
 
 
 
+                    }
 
+                }
+
+                .img-lineTayNguyen-1-review {
+                    display: none;
+                    position: absolute;
+                    top: 136px;
+                    right: $marginContainerRg;
                 }
             }
 
